@@ -1,0 +1,100 @@
+.customer-list {
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0 auto; /* Center the list horizontally */
+    text-align: center; /* Center text within each item */
+  }
+  
+  .customer-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 10px;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .customer-item:hover {
+    background-color: #e0f7fa; /* Background color on hover */
+    cursor: pointer;
+  }
+
+  .content {
+    font-size: 16px; /* Adjust font size as needed */
+    align-items: left;
+  }
+  
+  /* Button container (right side) */
+  .button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  /* Button styling */
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50; /* Green for edit */
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336; /* Red for delete */
+    color: white;
+  }
+  
+  /* Hover effects for buttons */
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049; /* Darker green for edit */
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935; /* Darker red for delete */
+  }
+  
+  .close-btn {
+    background-color: #f44336; /* Red for close */
+    color: white;
+  }
+  
+  .update-btn {
+    background-color: #4CAF50; /* Green for update */
+    color: white;
+  }
+
+  .input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+
+  .label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+  }
