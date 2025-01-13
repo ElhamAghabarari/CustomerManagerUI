@@ -73,3 +73,7 @@ button:focus-visible {
   align-items: center;
   padding: 3rem 10%;
 }
+
+.back-link {
+  margin-left: 10px;
+}

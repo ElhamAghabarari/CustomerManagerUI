@@ -3,14 +3,17 @@
     background-color: #4CAF50;
     padding: 20px;
     text-align: center;
+    align-items: center;
     color: white;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: space-between;
   }
   
   .title {
-    margin: 0;
     font-size: 24px;
+    margin: auto;
   }
